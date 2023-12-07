@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HelloWorld-DCP</string>
+    <string name="edit_text_hint">Input your source code...</string>
+    <string name="btn_parse_text">Parse</string>
+
+
+    <!--  preset code string  -->
+    <string name="preset_td1_id">MRTD_TD1_ID: </string>
+    <string name="preset_td2_id">MRTD_TD2_ID: </string>
+    <string name="preset_td2_visa">MRTD_TD2_VISA: </string>
+    <string name="preset_td3_passport">MRTD_TD3_PASSAPORT: </string>
+    <string name="preset_td3_visa">MRTD_TD3_VISA: </string>
+    <string name="preset_aamva_dl_id">MMAVA_DL_ID: </string>
+    <string name="preset_aamva_dl_id_with_mag">MMAVA_DL_ID_WHITH_MAG_STRIPE: </string>
+    <string name="preset_south_africa_dl">SOUTH_AFRICA_DL: </string>
+    <string name="preset_aadhaar">AADHAAR: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;\n&lt;PrintLetterBarcodeData uid=&quot;833365948461&quot; name=&quot;Salaudin Ansari&quot; gender=&quot;M&quot; yob=&quot;2000&quot; co=&quot;S/O: Mustkim Ansari&quot; loc=&quot;rajapur&quot; vtc=&quot;Rajapur&quot; po=&quot;Chakia&quot; dist=&quot;Siwan&quot; subdist=&quot;Bhagwanpur Hat&quot; state=&quot;Bihar&quot; pc=&quot;841507&quot; dob=&quot;10/03/2000&quot;/&gt;</string>
+    <string name="preset_vin">VIN: 1NXBU40E19Z159787</string>
+    <string name="popup_window_tip">You can also select a preset code string to parse:</string>
+    <!--  preset code string  -->
+</resources>

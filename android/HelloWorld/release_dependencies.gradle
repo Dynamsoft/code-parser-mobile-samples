@@ -1,0 +1,25 @@
+import java.util.concurrent.TimeUnit
+
+allprojects {
+    ext {
+        dysGroupId = "com.dynamsoft"
+        artifactId = [
+                "dcp" : 'dynamsoftcodeparser',
+                "dcpd" : 'dynamsoftcodeparserdedicator',
+                "core": 'dynamsoftcore',
+                "license": 'dynamsoftlicense',
+        ]
+
+        versions = [
+                "dcp" : "2.0.20",
+                "dcpd" : "1.0.10",
+                "core": "3.0.20",
+                "license": "3.0.30",
+        ]
+    }
+    configurations.configureEach {
+        resolutionStrategy {
+            cacheChangingModulesFor 0, TimeUnit.SECONDS
+        }
+    }
+}

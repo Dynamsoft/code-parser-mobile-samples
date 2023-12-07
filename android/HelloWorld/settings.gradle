@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//        mavenLocal()
+//        maven {
+//            url "https://download2.dynamsoft.com/maven/aar"
+//        }
+//    }
+//}
+
+rootProject.name = "HelloWorld_DCP"
+include ':app'
+
+//Dev
+include ':dev_mobile_sample_script'
+project(':dev_mobile_sample_script').projectDir = file('../../../mobile_sample_script')
