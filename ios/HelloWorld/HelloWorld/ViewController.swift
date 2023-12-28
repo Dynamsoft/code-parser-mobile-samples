@@ -104,7 +104,7 @@ class ViewController: UIViewController {
             // You can view the API references for more ways to extract the parsed content.
             // https://www.dynamsoft.com/code-parser/docs/mobile/programming/ios/api-reference/parsed-result-item.html
             guard let parsedFields = dcpResultItem?.parsedFields else { return }
-            let codeType = parsedFields["CodeType"] ?? ""
+            let codeType = dcpResultItem?.codeType ?? ""
             
             var tipTitle = ""
             var tipContent = ""
