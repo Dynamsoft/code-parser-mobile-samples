@@ -11,10 +11,10 @@ allprojects {
         ]
 
         versions = [
-                "dcp" : "2.0.20",
-                "dcpd" : "1.0.10",
-                "core": "3.0.20",
-                "license": "3.0.30",
+                "dcp" : "2.2.10",
+                "dcpd" : "1.2.20",
+                "core": "3.2.10",
+                "license": "3.2.10",
         ]
     }
     configurations.configureEach {
