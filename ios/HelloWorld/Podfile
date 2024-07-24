@@ -7,8 +7,8 @@ target 'HelloWorld' do
 
   # Pods for HelloWorld
   pod 'DynamsoftCore', '3.2.11'
-  pod 'DynamsoftLicense', '3.2.11'
-  pod 'DynamsoftCodeParser', '2.2.10'
-  pod 'DynamsoftCodeParserDedicator', '1.2.20'
+  pod 'DynamsoftLicense', '3.2.21'
+  pod 'DynamsoftCodeParser', '2.2.11'
+  pod 'DynamsoftCodeParserDedicator', '1.2.21'
 
 end
