@@ -1,5 +1,7 @@
 # Dynamsoft Code Parser samples for the Android and iOS editions
 
+⚠️ **Notice:** This repository has been **archived**. For the latest examples utilizing code parser features, please visit the **[Dynamsoft Capture Vision Samples](https://github.com/Dynamsoft/capture-vision-mobile-samples)** repository. 🚀
+
 This repository contains multiple samples that demonstrate how to use the [Dynamsoft Code Parser](https://www.dynamsoft.com/code-parser/docs/core/introduction/) Android and iOS Editions.
 
 ## Requirements
